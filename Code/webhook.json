@@ -1,0 +1,23 @@
+{
+  "event": "ConnectTheDots",
+  "url": "https://connectthedotsex-ns.servicebus.windows.net/ehdevices/messages",
+  "requestType": "POST",
+  "json": {
+    "subject": "{{s}}",
+    "unitofmeasure": "{{u}}",
+    "measurename": "{{m}}",
+    "value": "{{v}}",
+    "organization": "{{o}}",
+    "displayname": "{{d}}",
+    "location": "{{l}}",
+    "timecreated": "{{SPARK_PUBLISHED_AT}}",
+    "guid": "{{SPARK_CORE_ID}}"
+
+  },
+
+  "azure_sas_token": {
+    "key_name": "D1",
+    "key": "mBLQGWxSkRHg7f2eRCLonHUpNS+DY0iPHclxjf7Cmvk="
+  },
+  "mydevices": true
+}
